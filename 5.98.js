@@ -1,8 +1,9 @@
 function nextHappyYear(year){
-  year += ""
-    if (year.split("").every((a, i, arr) => arr.indexOf(a) === i)){
+  year++
+  for (;;year++){
+  let a = String(year).split("")
+  if (a.every((a,i,array) => array.indexOf(a) === i)){
     return +year
-  } 
-    return nextHappyYear(year++)
+  }
 }
-console.log(nextHappyYear(1003))
+}
