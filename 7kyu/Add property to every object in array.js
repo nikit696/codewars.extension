@@ -1,0 +1,1 @@
+questions.map(function(a){ a.usersAnswer = null})

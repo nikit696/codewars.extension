@@ -1,0 +1,4 @@
+SQL Basics: Simple DISTINCT
+SQL:
+SELECT DISTINCT age
+FROM people
