@@ -8,4 +8,4 @@ function mygcd(x,y){
     }
     return x;
   }
-  console.log(6 % 3)
+  
